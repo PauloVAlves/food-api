@@ -7,11 +7,9 @@ class Food {
   }
 
   static getById(id) {
-    return foodList.filter((food) => {
-      food.id.toString() === id.toString();
-    });
-
-    return response;
+    return foodList.filter(
+      (food) => (food.id.toString() === id.toString())
+    )
   }
 }
 

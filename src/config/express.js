@@ -1,10 +1,16 @@
-const express = require('express');
-const cors = require('cors');
-
+const express    = require('express');
+const bodyParser = require('body-parser');
 
 module.exports = () => {
-  const expressApp = express();
-  expressApp.use(cors());
+  const app = express();
 
-  return expressApp;
-}
+  
+  app.set('port', process.env.PORT || 5000);
+
+  
+  app.use(bodyParser.json());
+
+  require('../routes/food.js')(app);
+
+  return app;
+};
