@@ -67309,11 +67309,11 @@
         "unit": "percents"
       },
       "protein": {
-        "qty": "*",
+        "qty": 4,
         "unit": "g"
       },
       "lipid": {
-        "qty": "*",
+        "qty": 0,
         "unit": "g"
       },
       "cholesterol": {
@@ -67321,11 +67321,11 @@
         "unit": "mg"
       },
       "carbohydrate": {
-        "qty": "*",
+        "qty": 0,
         "unit": "g"
       },
       "fiber": {
-        "qty": "NA",
+        "qty": -2,
         "unit": "g"
       },
       "ashes": {
@@ -67345,7 +67345,7 @@
         "unit": "mg"
       },
       "iron": {
-        "qty": "Tr",
+        "qty": -3,
         "unit": "mg"
       },
       "sodium": {
@@ -67365,7 +67365,7 @@
         "unit": "mg"
       },
       "retinol": {
-        "qty": "Tr",
+        "qty": -3,
         "unit": "mcg"
       },
       "thiamine": {
@@ -67377,7 +67377,7 @@
         "unit": "mg"
       },
       "pyridoxine": {
-        "qty": "Tr",
+        "qty": -3,
         "unit": "mg"
       },
       "niacin": {
@@ -67385,11 +67385,11 @@
         "unit": "mg"
       },
       "energy": {
-        "kcal": "*",
-        "kj": "*"
+        "kcal": 37,
+        "kj": 154.808
       },
       "manganese": {
-        "qty": "Tr",
+        "qty": 10,
         "unit": "mg"
       }
     }
@@ -67410,11 +67410,11 @@
         "unit": "percents"
       },
       "protein": {
-        "qty": "*",
+        "qty": 3.5,
         "unit": "g"
       },
       "lipid": {
-        "qty": "*",
+        "qty": 3.5,
         "unit": "g"
       },
       "cholesterol": {
@@ -67486,8 +67486,8 @@
         "unit": "mg"
       },
       "energy": {
-        "kcal": "*",
-        "kj": "*"
+        "kcal": 65.5,
+        "kj": 274.052
       },
       "fatty_acids": {
         "saturated": {
@@ -86771,7 +86771,7 @@
         "unit": "percents"
       },
       "protein": {
-        "qty": "*",
+        "qty":4,
         "unit": "g"
       },
       "lipid": {
@@ -86783,11 +86783,11 @@
         "unit": "mg"
       },
       "carbohydrate": {
-        "qty": "*",
+        "qty": 10,
         "unit": "g"
       },
       "fiber": {
-        "qty": "*",
+        "qty": 5,
         "unit": "g"
       },
       "ashes": {
@@ -86847,8 +86847,8 @@
         "unit": "mg"
       },
       "energy": {
-        "kcal": "*",
-        "kj": "*"
+        "kcal": 430.00,
+        "kj": 1799.12
       },
       "fatty_acids": {
         "saturated": {
