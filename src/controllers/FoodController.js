@@ -1,5 +1,5 @@
 const { response } = require('express');
-const foodList = require('../data/foods.json');
+const foodList = require('../data/taco.json');
 
 class Food {
   static getFoodList() {
@@ -7,9 +7,7 @@ class Food {
   }
 
   static getById(id) {
-    return foodList.filter(
-      (food) => (food.id.toString() === id.toString())
-    )
+    return foodList.filter((food) => food.id.toString() === id.toString());
   }
 }
 
